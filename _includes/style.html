@@ -1,0 +1,126 @@
+<style>
+	body {
+		background:  #fdfdfdfd; /* darkmode: #111111 */
+		color: #111111; /* darkmode: #fdfdfd */
+		font-family: sans-serif;
+		margin-left: 40px;
+    }
+
+    a {
+		color: #2a7ae2;
+		text-decoration: none;
+    }
+
+    a:hover{
+		color: #ff0000;
+	}
+
+    .navbar a{
+		text-decoration: none;
+		padding: 20px;
+		display: inline;
+		font-size: 20px;
+    }
+
+    .navbar{
+		overflow: hidden;
+		padding: 10px;
+    }
+
+	.textLogo{
+		color: #292929; /* darkmode: #e1e1e1*/
+	}
+    .articlePost{
+        width: 80%;
+    }
+	
+    .articlePost code {
+        background: #dddddd; /* darkmode: #393939*/
+        padding: 3px;
+    }
+
+	.home {
+		margin: auto;
+		display: flex;
+		width: 80%;
+		padding: 30px;
+		flex-wrap: wrap;
+		box-shadow: 0px 0px 3px var(--main-bshadow-color);
+		background-color: var(--main-bg-color);
+		box-sizing: border-box;
+	}
+
+	.post {
+		margin: auto;
+		display: flex;
+		width: 80%;
+		padding: 30px;
+		flex-wrap: wrap;
+		box-shadow: 0px 0px 3px var(--main-bshadow-color);
+		background-color: var(--main-bg-color);
+		box-sizing: border-box;
+	}
+
+	.post-meta {
+		font-size: 20px;
+	}
+
+	.words {
+		font-size: 15px;
+		color: #3e3e3e;
+	}
+
+	.post-list p {
+		font-size: 15px !important;
+	}
+
+	.post-content.e-content{
+		font-size: 18px;
+		padding-left: 30px;
+		text-align: justify;
+	}
+
+	.footer {
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		bottom: 0px;
+		background-color: var(--footer-bg-color);
+		box-sizing: border-box;
+	}
+
+	.footer p {
+		color: var(--footer-text-color);
+	}
+
+	.aboutlinks {
+		text-align: center;
+	}
+
+	.aboutlinks img {
+		text-align: center;
+		transition: 0.3s;
+		filter: brightness(20) saturate(20%) invert(70%);
+	}
+
+	.aboutlinks img:hover {
+		transition: 0.3s;
+		filter: brightness(20) saturate(50%) invert(40%);
+	}
+
+	@media screen and (max-width: 938px) {
+		.header h1 {
+			font-size: 70px;
+		}
+		
+		.header h1 span {
+			font-size: 70px;
+		}
+
+		.header h2 {
+			font-size: 30px;
+		}
+	}
+</style>

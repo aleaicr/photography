@@ -6,5 +6,5 @@ author: Alexis Contreras R.
 ---
 
 ![Stars, I don't remember where](/photography/assets/images/astronomy/photo1.jpg)
-Stars, I don't remember where
+<center>Stars, I don't remember where</center>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "astronomy"
-date:   2024-04-10 13:12:40 -0400
+date:   2024-04-10 13:12:59 -0400
 author: Alexis Contreras R.
 ---
 
